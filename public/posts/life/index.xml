@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on Harper</title>
+    <link>http://localhost:1313/posts/life/</link>
+    <description>Recent content in 生活 on Harper</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 02 Oct 2024 16:19:44 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>202409：焦虑解决不了问题</title>
+      <link>http://localhost:1313/2024/10/02/202409%E7%84%A6%E8%99%91%E8%A7%A3%E5%86%B3%E4%B8%8D%E4%BA%86%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Wed, 02 Oct 2024 16:19:44 +0800</pubDate>
+      <guid>http://localhost:1313/2024/10/02/202409%E7%84%A6%E8%99%91%E8%A7%A3%E5%86%B3%E4%B8%8D%E4%BA%86%E9%97%AE%E9%A2%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>202408：不断折腾说明生命还鲜活</title>
+      <link>http://localhost:1313/2024/10/02/202408%E4%B8%8D%E6%96%AD%E6%8A%98%E8%85%BE%E8%AF%B4%E6%98%8E%E7%94%9F%E5%91%BD%E8%BF%98%E9%B2%9C%E6%B4%BB/</link>
+      <pubDate>Wed, 02 Oct 2024 14:43:23 +0800</pubDate>
+      <guid>http://localhost:1313/2024/10/02/202408%E4%B8%8D%E6%96%AD%E6%8A%98%E8%85%BE%E8%AF%B4%E6%98%8E%E7%94%9F%E5%91%BD%E8%BF%98%E9%B2%9C%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>202407：秩序感是过出来的</title>
+      <link>http://localhost:1313/2024/08/02/202407%E7%A7%A9%E5%BA%8F%E6%84%9F%E6%98%AF%E8%BF%87%E5%87%BA%E6%9D%A5%E7%9A%84/</link>
+      <pubDate>Fri, 02 Aug 2024 14:40:09 +0800</pubDate>
+      <guid>http://localhost:1313/2024/08/02/202407%E7%A7%A9%E5%BA%8F%E6%84%9F%E6%98%AF%E8%BF%87%E5%87%BA%E6%9D%A5%E7%9A%84/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

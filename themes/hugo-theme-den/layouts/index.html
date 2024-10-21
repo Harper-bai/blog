@@ -1,0 +1,93 @@
+{{ define "header" }}
+<style> .header-container {
+  background: #f5f5f5;
+  padding: 0;
+  min-height: 260px;
+}</style>
+<div class="container header-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="header-content">
+        <h1 class="header-title">
+          {{ if .Site.Params.headerTitle }}
+            {{ .Site.Params.headerTitle | safeHTML }}
+          {{ else }}
+            {{ .Site.Title | safeHTML }}
+          {{ end }}
+        </h1>
+        <div class="header-underline"></div>
+        {{ with .Site.Params.description }}
+        <p class="header-subtitle header-subtitle-homepage">{{ . | safeHTML }}</p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "main" }}
+{{- $pages := .Pages -}}
+{{- if .IsHome -}}
+  {{- $pages = where .Site.RegularPages "Type" "category" -}}
+{{- end -}}
+<!-- {{- $paginator := .Paginate $pages -}} -->
+<div class="archive-container">
+    <div class="container content archive">
+      <h2>{{ i18n "latest_posts" }}{{ if $paginator.HasPrev }} <small>- {{ i18n "page" }} {{ $paginator.PageNumber }}</small>{{ end }}</h2>
+        <dl class="row">
+            {{ range $paginator.Pages -}}
+            <dt class="col-md-3">{{ .Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</dt>
+            <dd class="col-md-9"><a href="{{ .Permalink }}">{{ .Title }}</a></dd>
+            {{ end }} 
+            <!-- {{ range $index, $page := first 6 $paginator.Pages }}
+              <dt class="col-md-3">{{ $page.Date.Format (.Site.Params.dateFormatToUse | default "Mon 02 January 2006") }}</dt>
+              <dd class="col-md-9"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></dd>
+            {{ end }}-->
+        </dl>
+    </div>
+</div>
+<div class=" home-bg">
+  <div class="container archive popup-container">
+    <p>「一个人应该能够给孩子换尿布、计划一次侵略行动、杀猪、
+  </p>
+  <p>
+    驾驶飞船、设计建筑物、写诗、做会计账目、砌墙、接合断骨、照顾临终的人、
+  </p>
+  <p></p>
+  执行命令、下达命令、与人合作、独立行动、解方程式、分析一个新问题、施肥、编程、
+  </p>
+  <p>
+    做一餐美味的饭、高效地战斗、勇敢地死去。专业化是为昆虫准备的。」
+  </p>
+  <p>
+    ——罗伯特·海因莱恩
+  </p>
+
+  </div>
+</div> 
+<script> 
+function addStars() {
+  const container = document.querySelector('.home-bg');
+  const numStars = 100; // 设置星星的数量
+
+  for (let i = 0; i < numStars; i++) {
+    const star = document.createElement('span');
+    star.classList.add('star');
+    star.innerHTML = '✨';
+    star.style.top = `${getRandomNumber(22, 80)}%`;
+    star.style.left = `${getRandomNumber(0, 100)}%`;
+    container.appendChild(star);
+  }
+}
+
+function getRandomNumber(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+//addStars();
+
+
+</script>
+
+   
+<!-- {{ partial "pagination.html" . }} -->
+{{ end }}

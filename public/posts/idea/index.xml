@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考 on Harper</title>
+    <link>http://localhost:1313/posts/idea/</link>
+    <description>Recent content in 思考 on Harper</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 16 Oct 2024 14:30:48 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/idea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>独立博客自省问卷15题</title>
+      <link>http://localhost:1313/2024/10/16/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E8%87%AA%E7%9C%81%E9%97%AE%E5%8D%B715%E9%A2%98/</link>
+      <pubDate>Wed, 16 Oct 2024 14:30:48 +0800</pubDate>
+      <guid>http://localhost:1313/2024/10/16/%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E8%87%AA%E7%9C%81%E9%97%AE%E5%8D%B715%E9%A2%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aboutlove</title>
+      <link>http://localhost:1313/2024/09/29/Aboutlove/</link>
+      <pubDate>Sun, 29 Sep 2024 18:15:27 +0800</pubDate>
+      <guid>http://localhost:1313/2024/09/29/Aboutlove/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>不可不走心的一件事</title>
+      <link>http://localhost:1313/2024/09/15/%E4%B8%8D%E5%8F%AF%E4%B8%8D%E8%B5%B0%E5%BF%83%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B/</link>
+      <pubDate>Sun, 15 Sep 2024 08:34:45 +0800</pubDate>
+      <guid>http://localhost:1313/2024/09/15/%E4%B8%8D%E5%8F%AF%E4%B8%8D%E8%B5%B0%E5%BF%83%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

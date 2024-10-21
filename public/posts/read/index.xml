@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>读书 on Harper</title>
+    <link>http://localhost:1313/posts/read/</link>
+    <description>Recent content in 读书 on Harper</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Oct 2024 23:04:46 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/read/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《我看见的世界》读时感（上）</title>
+      <link>http://localhost:1313/2024/10/15/%E6%88%91%E7%9C%8B%E8%A7%81%E7%9A%84%E4%B8%96%E7%95%8C%E8%AF%BB%E6%97%B6%E6%84%9F%E4%B8%8A/</link>
+      <pubDate>Tue, 15 Oct 2024 23:04:46 +0800</pubDate>
+      <guid>http://localhost:1313/2024/10/15/%E6%88%91%E7%9C%8B%E8%A7%81%E7%9A%84%E4%B8%96%E7%95%8C%E8%AF%BB%E6%97%B6%E6%84%9F%E4%B8%8A/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
