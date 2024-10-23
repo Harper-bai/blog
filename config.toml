@@ -165,6 +165,11 @@ defaultContentLanguageInSubdir = false
     identifier = "idea"
     url = "category/idea"
 
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>周刊'
+    weight =15
+    identifier = "weekly"
+    url = "category/weekly"
   # [[languages.zh-cn.menu.main]]
   #  name = "<i class='fas fa-laptop-code'></i>技术文章"
   #  weight = 20
