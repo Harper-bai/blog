@@ -28,7 +28,7 @@ PygmentsUseClasses = true    # required for shhighlight shortcode
 
 # service plugins
 disqusShortname = ""         # disqus_shortname
-googleAnalytics = ""         # UA-XXXXXXXX-X
+googleAnalytics = "G-81J7F7R6M6"         # UA-XXXXXXXX-X
 
 # language support # en / zh-tw / other... translations present in i18n/
 defaultContentLanguage = "zh-cn"           # Default language to use
@@ -81,7 +81,7 @@ defaultContentLanguageInSubdir = false
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
 
-  # google_verification = "google57680cd58c46e2f3.html"  # Google_Verification
+  # google_verification = "57680cd58c46e2f3.html"  # Google_Verification
 
   enableRelated = true
 

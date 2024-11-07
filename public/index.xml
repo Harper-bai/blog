@@ -521,29 +521,10 @@
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h2 id=&#34;我&#34;&gt;我&lt;/h2&gt;
 &lt;p&gt;我叫白珊（aka.Harper），目前是且永远是一名学生。我的专业是&lt;strong&gt;法学&lt;/strong&gt;，在此之前我学过&lt;strong&gt;心理学&lt;/strong&gt;，我的兴趣在&lt;strong&gt;科学与技术&lt;/strong&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;我的原则&#34;&gt;我的原则&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;不在疲惫和饥饿的时候做决定。&lt;/li&gt;
-&lt;li&gt;不在半夜做决定，包括购物。&lt;/li&gt;
-&lt;li&gt;不在睡前喝咖啡。&lt;/li&gt;
-&lt;li&gt;晚上十一点之后不主动找别人聊天。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;我的愿望&#34;&gt;我的愿望&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;在大学期间读完100本书。&lt;/li&gt;
-&lt;li&gt;在大学期间写50篇读书报告。&lt;/li&gt;
-&lt;li&gt;在大学期间去5个城市旅游并写游记。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;关于这个网站&#34;&gt;关于这个网站&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;20240910 创建博客网站，采用&lt;code&gt;dream&lt;/code&gt;这个主题&lt;/li&gt;
-&lt;li&gt;20240912 网站上线&lt;/li&gt;
-&lt;li&gt;20240912 写了第一篇文章&lt;a href=&#34;content/posts/aboutblog.md&#34;&gt;关于搭博客这件事&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;20240926 增加了&lt;a href=&#34;https://moments.harperby.cloudns.be/&#34;&gt;「Moments」&lt;/a&gt;发表日常短博文,采用的是&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-moments/&#34;&gt;这个模板&lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
-&lt;li&gt;20241018 更换主题.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;email：7451392@gmail.com&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h2 id="我">我</h2>
 <p>我叫白珊（aka.Harper），目前是且永远是一名学生。我的专业是<strong>法学</strong>，在此之前我学过<strong>心理学</strong>，我的兴趣在<strong>科学与技术</strong>。</p>
+<p>email：7451392@gmail.com</p>
 <h2 id="我的原则">我的原则</h2>
 <ul>
 <li>不在疲惫和饥饿的时候做决定。</li>
