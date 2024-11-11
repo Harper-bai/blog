@@ -3,21 +3,28 @@
   
   <url>
     <loc>http://localhost:1313/category/</loc>
-    <lastmod>2024-11-04T12:46:05+08:00</lastmod>
+    <lastmod>2024-11-11T13:28:05+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-04T12:46:05+08:00</lastmod>
+    <lastmod>2024-11-11T13:28:05+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/category/weekly/</loc>
-    <lastmod>2024-11-04T12:46:05+08:00</lastmod>
+    <lastmod>2024-11-11T13:28:05+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/category/weekly/weekly-018-241111/</loc>
+    <lastmod>2024-11-11T13:28:05+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
