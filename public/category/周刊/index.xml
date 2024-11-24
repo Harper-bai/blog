@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>周刊 on Harper</title>
+    <link>http://localhost:1313/category/%E5%91%A8%E5%88%8A/</link>
+    <description>Recent content in 周刊 on Harper</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 18 Nov 2024 20:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/%E5%91%A8%E5%88%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周刊｜No.019 高层次狼尾</title>
+      <link>http://localhost:1313/category/weekly/weekly-019-241118/</link>
+      <pubDate>Mon, 18 Nov 2024 20:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/category/weekly/weekly-019-241118/</guid>
+      <description>&lt;p&gt;&lt;em&gt;欢迎来到Harper的周刊，这里收集了我上一周（20241111-20241117）与这个世界产生的一些联系。（ps.红字是链接，点击即跳转）&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

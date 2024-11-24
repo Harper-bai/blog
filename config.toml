@@ -62,9 +62,9 @@ defaultContentLanguageInSubdir = false
   # site info (optional)
   keywords = ["Hugo", "思考","学习"]
   description = "一个用来记录的地方"
-  logoTitle = " " # shown on top-left, default: title
-  siteLogoImage = ""     # shown besides logoTitle
-  # headerTitle = "Den"                   # default: title
+  logoTitle = "harper" # shown on top-left, default: title
+  siteLogoImage = "images/logo.png"     # shown besides logoTitle
+  headerTitle = "Harper's Blog"                   # default: title
   headerImage = "images/background.png"
   #headerImage = "https://hexo.moonkite.cn/blog/background.png"
   showAuthorCard = false # Whether to show author information below the article
