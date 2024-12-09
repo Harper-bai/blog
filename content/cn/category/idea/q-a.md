@@ -2,19 +2,8 @@
 title: 独立博客自省问卷15题
 date: 2024-10-16T14:30:48+08:00
 lastmod: 2024-10-16T14:30:48+08:00
-author: Harper
-# avatar: /img/author.jpg
-# authorlink: https://author.site
-# cover: /img/cover.jpg
-# images:
-#   - /img/cover.jpg
-# categories:
-#  - category1
-tags:
-  - tag1
-  - tag2
-# nolastmod: true
-
+categories:
+ - 我的思考
 ---
 
 

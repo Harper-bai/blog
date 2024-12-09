@@ -2,18 +2,6 @@
 title: Future
 date: 2024-09-14T10:39:51+08:00
 lastmod: 2024-09-14T10:39:51+08:00
-author: Author Name
-# avatar: /img/author.jpg
-# authorlink: https://author.site
-#cover: /img/crossroad.webp
-# images:
-#   - /img/cover.jpg
-#categories:
-#  - category1
-tags:
-  - 未来
-  - 随笔
-# nolastmod: true
 draft: true
 ---
 

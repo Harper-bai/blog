@@ -2,18 +2,8 @@
 title: 不可不走心的一件事      
 date: 2024-09-15T08:34:45+08:00
 lastmod: 2024-09-15T08:34:45+08:00
-author: Harper
-# avatar: /img/author.jpg
-# authorlink: https://author.site
-#cover: /img/cover.jpg
-# images:
-#   - /img/cover.jpg
-# categories:
-#   - category1
-tags:
-  - 思考
-# nolastmod: true
-# draft: true
+categories:
+ - 我的思考
 ---
 
 
