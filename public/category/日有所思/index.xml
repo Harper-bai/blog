@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日有所思 on Harper</title>
+    <link>http://localhost:1313/category/%E6%97%A5%E6%9C%89%E6%89%80%E6%80%9D/</link>
+    <description>Recent content in 日有所思 on Harper</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 04 Nov 2024 11:42:11 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/%E6%97%A5%E6%9C%89%E6%89%80%E6%80%9D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>量子不确定性：世界的本质是随机性</title>
+      <link>http://localhost:1313/2024/11/04/%E9%87%8F%E5%AD%90%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E4%B8%96%E7%95%8C%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E9%9A%8F%E6%9C%BA%E6%80%A7/</link>
+      <pubDate>Mon, 04 Nov 2024 11:42:11 +0800</pubDate>
+      <guid>http://localhost:1313/2024/11/04/%E9%87%8F%E5%AD%90%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E4%B8%96%E7%95%8C%E7%9A%84%E6%9C%AC%E8%B4%A8%E6%98%AF%E9%9A%8F%E6%9C%BA%E6%80%A7/</guid>
+      <description>&lt;p&gt;这是我秋学期《力学导论》的结课作业，写完之后，觉得很有意思，所以分享一下。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;量子不确定性和混沌背后是否有更深刻的原理？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;量子不确定性和混沌是对经典物理中的确定性和决定论的挑战，两者揭示了宏观和微观层面上都充满了随机性和不确定性。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,8 +2,8 @@
 # ---- General Settings --------------- #
 # ------------------------------------- #
 baseURL = "https://blog.harperby.cloudns.be/"
+theme = "yinyang"
 title = "Harper"
-theme = "hugo-theme-den"
 enableRobotsTXT = true       # generate robots.txt
 enableEmoji = true           # use emoji support
 hasCJKLanguage = true        # detect CJK languages for word count etc.
@@ -34,7 +34,15 @@ googleAnalytics = "G-81J7F7R6M6"         # UA-XXXXXXXX-X
 defaultContentLanguage = "zh-cn"           # Default language to use
 defaultContentLanguageInSubdir = false
 
-
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+guessSyntax = true
+noClasses = true
+style = "tango"
+tabWidth = 2
 
 # Links format
 [permalinks]
@@ -61,16 +69,18 @@ defaultContentLanguageInSubdir = false
 
   # site info (optional)
   keywords = ["Hugo", "思考","学习"]
-  description = "一个用来记录的地方"
+  description = "to think, to write, to discovery"
   logoTitle = "harper" # shown on top-left, default: title
   siteLogoImage = "images/logo.png"     # shown besides logoTitle
-  headerTitle = "Harper's Blog"                   # default: title
+  # headerTitle = "Harper's Blog"                   # default: title den
+  headTitle = "Harper's blog"
   headerImage = "images/background.png"
+  mainSections =["posts"]
   #headerImage = "https://hexo.moonkite.cn/blog/background.png"
   showAuthorCard = false # Whether to show author information below the article
   # comments = true
   showMenuLanguages = true
-  customFavicon = "images/photo.png"
+#  customFavicon = "images/photo.png"
 
   # autoLoadComments = true # auto load comment when scrolling down
 
@@ -101,30 +111,35 @@ defaultContentLanguageInSubdir = false
 #   owner = "huzhicheng"
 #   repo = "huzhicheng.github.io"
 
+  [[params.socials]]
+  link = "/about"
+  name = "About"
+
+
 # ------------------------------------- #
 # ---- Related Articles --------------- #
 # ------------------------------------- #
-[related]
+#[related]
   # Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
-  threshold = 50
+#  threshold = 50
 
   # To get stable "See also" sections we, by default, exclude newer related pages.
-  includeNewer = true
+#  includeNewer = true
 
   # Will lower case keywords in both queries and in the indexes.
-  toLower = false
+ # toLower = false
 
-[[related.indices]]
-  name = "categories"
-  weight = 200
+#[[related.indices]]
+#  name = "categories"
+#  weight = 200
 
-[[related.indices]]
-  name = "keywords"
-  weight = 150
+#[[related.indices]]
+#  name = "keywords"
+#  weight = 150
 
-[[related.indices]]
-  name = "tags"
-  weight = 100
+#[[related.indices]]
+#  name = "tags"
+#  weight = 100
 
 [languages.zh-cn]
   languageCode = "zh-cn"
@@ -132,38 +147,38 @@ defaultContentLanguageInSubdir = false
   contentDir = "content/cn"
   weight = 2
 
-  [languages.zh-cn.params]
-    description = "To write, To think, To love"
+#  [languages.zh-cn.params]
+#    description = "To write, To think, To love"
 
-  [[languages.zh-cn.menu.main]]
-    name = '<i class="fas fad fa-h-square"></i>主页'
-    weight = 1
-    identifier = "home"
-    url = "/"
+#  [[languages.zh-cn.menu.main]]
+#    name = '<i class="fas fad fa-h-square"></i>主页'
+#    weight = 1
+#    identifier = "home"
+#    url = "/"
 
-  [[languages.zh-cn.menu.main]]
-    name = '<i class="fas fad fa-h-square"></i>关于'
-    weight =40
-    identifier = "about"
-    url = "/about"
+  #[[languages.zh-cn.menu.main]]
+  #  name = '<i class="fas fad fa-h-square"></i>关于'
+  #  weight =40
+  #  identifier = "about"
+  #  url = "/about"
 
-  [[languages.zh-cn.menu.main]]
-    name = '<i class="fas fad fa-h-square"></i>阅读'
-    weight =20
-    identifier = "read"
-    url = "category/read"
+  #[[languages.zh-cn.menu.main]]
+  #  name = '<i class="fas fad fa-h-square"></i>阅读'
+  #  weight =20
+  #  identifier = "read"
+  #  url = "category/read"
 
-  [[languages.zh-cn.menu.main]]
-    name = '<i class="fas fad fa-h-square"></i>生活'
-    weight =30
-    identifier = "life"
-    url = "category/life"
+  #[[languages.zh-cn.menu.main]]
+  #  name = '<i class="fas fad fa-h-square"></i>生活'
+  #  weight =30
+  #  identifier = "life"
+  #  url = "category/life"
 
-  [[languages.zh-cn.menu.main]]
-    name = '<i class="fas fad fa-h-square"></i>思考'
-    weight =35
-    identifier = "idea"
-    url = "category/idea"
+  #[[languages.zh-cn.menu.main]]
+  #  name = '<i class="fas fad fa-h-square"></i>思考'
+  #  weight =35
+  #  identifier = "idea"
+  #  url = "category/idea"
 
   #[[languages.zh-cn.menu.main]]
   #  name = '<i class="fas fad fa-h-square"></i>周刊'
