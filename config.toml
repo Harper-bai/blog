@@ -2,7 +2,7 @@
 # ---- General Settings --------------- #
 # ------------------------------------- #
 baseURL = "https://blog.harperby.cloudns.be/"
-theme = "yinyang"
+theme = "hugo-theme-den"
 title = "Harper"
 enableRobotsTXT = true       # generate robots.txt
 enableEmoji = true           # use emoji support
@@ -111,9 +111,9 @@ tabWidth = 2
 #   owner = "huzhicheng"
 #   repo = "huzhicheng.github.io"
 
-  [[params.socials]]
-  link = "/about"
-  name = "About"
+#  [[params.socials]]
+#  link = "/about"
+#  name = "About"
 
 
 # ------------------------------------- #
@@ -147,38 +147,38 @@ tabWidth = 2
   contentDir = "content/cn"
   weight = 2
 
-#  [languages.zh-cn.params]
-#    description = "To write, To think, To love"
+  [languages.zh-cn.params]
+    description = "To write, To think, To love"
 
-#  [[languages.zh-cn.menu.main]]
-#    name = '<i class="fas fad fa-h-square"></i>主页'
-#    weight = 1
-#    identifier = "home"
-#    url = "/"
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>主页'
+    weight = 1
+    identifier = "home"
+    url = "/"
 
-  #[[languages.zh-cn.menu.main]]
-  #  name = '<i class="fas fad fa-h-square"></i>关于'
-  #  weight =40
-  #  identifier = "about"
-  #  url = "/about"
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>关于'
+    weight =40
+    identifier = "about"
+    url = "/about"
 
-  #[[languages.zh-cn.menu.main]]
-  #  name = '<i class="fas fad fa-h-square"></i>阅读'
-  #  weight =20
-  #  identifier = "read"
-  #  url = "category/read"
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>阅读'
+    weight =20
+    identifier = "read"
+    url = "category/read"
 
-  #[[languages.zh-cn.menu.main]]
-  #  name = '<i class="fas fad fa-h-square"></i>生活'
-  #  weight =30
-  #  identifier = "life"
-  #  url = "category/life"
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>生活'
+    weight =30
+    identifier = "life"
+    url = "category/life"
 
-  #[[languages.zh-cn.menu.main]]
-  #  name = '<i class="fas fad fa-h-square"></i>思考'
-  #  weight =35
-  #  identifier = "idea"
-  #  url = "category/idea"
+  [[languages.zh-cn.menu.main]]
+    name = '<i class="fas fad fa-h-square"></i>思考'
+    weight =35
+    identifier = "idea"
+    url = "category/idea"
 
   #[[languages.zh-cn.menu.main]]
   #  name = '<i class="fas fad fa-h-square"></i>周刊'
